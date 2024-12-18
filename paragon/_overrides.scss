@@ -1,460 +1,265 @@
-/* login */
-
-position: relative;
-width: 1920px;
-height: 1088px;
-left: 539px;
-top: 628px;
-
-/* Night Grey */
-background: #273346;
-
+/* Login Container */
+.login {
+  position: relative;
+  width: 1920px;
+  height: 1088px;
+  left: 539px;
+  top: 628px;
+  background: #273346; /* Night Grey */
+}
 
 /* Rectangle 1358 */
+.login__sidebar {
+  position: absolute;
+  width: 957.5px;
+  height: 1088px;
+  left: 0;
+  top: 0;
+  background: #19212F; /* Mirage Dark */
+}
 
-position: absolute;
-width: 957.5px;
-height: 1088px;
-left: 0px;
-top: 0px;
+/* Logo */
+.login__logo {
+  position: absolute;
+  left: 2.03%;
+  right: 93.12%;
+  top: 2.94%;
+  bottom: 91.45%;
+}
 
-/* Mirage Dark */
-background: #19212F;
-
-
-/* logo 1 */
-
-position: absolute;
-left: 2.03%;
-right: 93.12%;
-top: 2.94%;
-bottom: 91.45%;
-
-
-
-/* Vector */
-
-position: absolute;
-left: 0%;
-right: 37.21%;
-top: 0%;
-bottom: 0%;
-
-background: rgba(61, 69, 103, 0.4);
-
+/* Background Vector */
+.login__background-vector {
+  position: absolute;
+  left: 0%;
+  right: 37.21%;
+  top: 0%;
+  bottom: 0%;
+  background: rgba(61, 69, 103, 0.4);
+}
 
 /* Vector */
+.login__vector {
+  position: absolute;
+  left: 10.02%;
+  right: 1.48%;
+  top: 34.27%;
+  bottom: 34.52%;
+  background: #FFFFFF; /* White */
+}
 
-position: absolute;
-left: 10.02%;
-right: 1.48%;
-top: 34.27%;
-bottom: 34.52%;
+/* Start Learning */
+.login__heading {
+  position: absolute;
+  width: 340px;
+  height: 156px;
+  left: 92px;
+  top: 388px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 78px;
+  line-height: 78px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF; /* White */
+}
 
-/* White */
-background: #FFFFFF;
+/* With MindSec */
+.login__subheading {
+  position: absolute;
+  width: 547px;
+  height: 156px;
+  left: 92px;
+  top: 544px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 78px;
+  line-height: 78px;
+  display: flex;
+  align-items: center;
+  color: #A394FF; /* Doger Blue */
+}
 
+/* Main Content */
+.login__main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px 0 0.000015px;
+  gap: 31.5px;
+  position: absolute;
+  min-width: 464px;
+  max-width: 464px;
+  height: 271.67px;
+  left: 1208px;
+  top: 77px;
+}
 
-/* Start learning */
-
-position: absolute;
-width: 340px;
-height: 156px;
-left: 92px;
-top: 388px;
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 78px;
-line-height: 78px;
-/* or 100% */
-display: flex;
-align-items: center;
-
-/* White */
-color: #FFFFFF;
-
-
-
-/* with MindSec */
-
-position: absolute;
-width: 547px;
-height: 156px;
-left: 92px;
-top: 544px;
-
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 78px;
-line-height: 78px;
-/* or 100% */
-display: flex;
-align-items: center;
-
-/* Doger Blue */
-color: #A394FF;
-
-
-
-/* div#main-content */
-
-/* Auto layout */
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 24px 0px 1.52588e-05px;
-gap: 31.5px;
-
-position: absolute;
-min-width: 464px;
-max-width: 464px;
-height: 271.67px;
-left: 1208px;
-right: 248px;
-top: 77px;
-
-
-
-/* Heading 3 → Sign in */
-
-width: 73px;
-height: 28px;
-
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 22px;
-line-height: 28px;
-/* identical to box height, or 125% */
-display: flex;
-align-items: center;
-
-/* White */
-color: #FFFFFF;
-
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-
+/* Sign In Heading */
+.login__sign-in-heading {
+  width: 73px;
+  height: 28px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF; /* White */
+}
 
 /* Form */
+.login__form {
+  width: 464px;
+  height: 188.17px;
+}
 
-width: 464px;
-height: 188.17px;
-
-
-/* Inside auto layout */
-flex: none;
-order: 1;
-flex-grow: 0;
-
-
-/* div.pgn__form-control-decorator-group */
-
-position: absolute;
-height: 44px;
-left: 0px;
-right: 8px;
-top: 0px;
-
-
+/* Form Control Group */
+.login__form-control-group {
+  position: absolute;
+  height: 44px;
+  left: 0;
+  right: 8px;
+}
 
 /* Input */
+.login__input {
+  position: absolute;
+  height: 42px;
+  left: 1px;
+  right: 1px;
+  top: 1px;
+  background: #273346; /* Night Grey */
+  border: 1px solid #79889F; /* Lynch Dark */
+  border-radius: 3px;
+}
 
-position: absolute;
-height: 42px;
-left: 1px;
-right: 1px;
-top: 1px;
-
-/* Night Grey */
-background: #273346;
-/* Lynch Dark */
-border: 1px solid #79889F;
-border-radius: 3px;
-
-
-/* div.pgn__form-control-floating-label-content */
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 11px 0px 12px;
-
-position: absolute;
-width: 138.75px;
-max-width: 456px;
-left: 10px;
-top: 0px;
-bottom: 0px;
-
-
+/* Floating Label Content */
+.login__floating-label-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 11px 0 12px;
+  position: absolute;
+  width: 138.75px;
+  max-width: 456px;
+  left: 10px;
+  top: 0;
+  bottom: 0;
+}
 
 /* Label */
+.login__label {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 6.75px 0 7px;
+  width: 138.75px;
+  max-width: 1080px;
+  height: 21px;
+  background: rgba(255, 255, 255, 0.01);
+  color: #79889F; /* Lynch Dark */
+}
 
-/* Auto layout */
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px 6.75px 0px 7px;
+/* Username or Email */
+.login__input-username {
+  width: 125px;
+  height: 21px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #79889F; /* Lynch Dark */
+}
 
-width: 138.75px;
-max-width: 1080px;
-height: 21px;
+/* Show Password Button */
+.login__show-password {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 6px;
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: calc(50% - 36px/2 + 205px);
+  top: calc(50% - 36px/2 - 0.02px);
+  border-radius: 18px;
+}
 
-background: rgba(255, 255, 255, 0.01);
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-
-
-/* Username or email */
-
-width: 125px;
-height: 21px;
-
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 21px;
-/* identical to box height, or 150% */
-display: flex;
-align-items: center;
-
-/* Lynch Dark */
-color: #79889F;
-
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-
-
-/* div.pgn__form-control-decorator-group */
-
-position: absolute;
-height: 44px;
-left: 0px;
-right: 8px;
-top: 72.19px;
-
-
-
-/* Input */
-
-position: absolute;
-height: 42px;
-left: 1px;
-right: 1px;
-top: 1px;
-
-/* Night Grey */
-background: #273346;
-/* Lynch Dark */
-border: 1px solid #79889F;
-border-radius: 3px;
-
-
-/* Button - Show password */
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: flex-start;
-padding: 6px;
-
-position: absolute;
-width: 36px;
-height: 36px;
-left: calc(50% - 36px/2 + 205px);
-top: calc(50% - 36px/2 - 0.02px);
-
-border-radius: 18px;
-
-
-/* Img */
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 4px 1px 5px;
-
-width: 24px;
-height: 24px;
-
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-
-
-/* Vector */
-
-width: 22px;
-height: 15px;
-
-/* Lynch Dark */
-background: #79889F;
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-
-
-/* div.pgn__form-control-floating-label-content */
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 11px 0px 12px;
-
-position: absolute;
-width: 77.11px;
-max-width: 456px;
-left: 10px;
-top: 0px;
-bottom: 0px;
-
-
-
-/* Label */
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px 6.11px 0px 7px;
-
-width: 77.11px;
-max-width: 1080px;
-height: 21px;
-
-background: rgba(255, 255, 255, 0.01);
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-
-
-/* Password */
-
-width: 64px;
-height: 21px;
-
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 21px;
-/* identical to box height, or 150% */
-display: flex;
-align-items: center;
-
-/* Lynch Dark */
-color: #79889F;
-
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-
+/* Show Password Icon */
+.login__show-password-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 4px 1px 5px;
+  width: 24px;
+  height: 24px;
+}
 
 /* Button */
+.login__button {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  position: absolute;
+  width: 96px;
+  min-width: 96px;
+  height: 44px;
+  left: 0;
+  top: calc(50% - 44px/2 + 72px);
+  background: #8F81E7; /* Primary */
+  border: 1px solid #8F81E7;
+  border-radius: 3px;
+}
 
-box-sizing: border-box;
+/* Button Text */
+.login__button-text {
+  width: 56px;
+  height: 24px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF; /* White */
+}
 
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 10px 19.9px 9.98px 20.1px;
+/* Forgot Password Link */
+.login__forgot-password {
+  position: absolute;
+  width: 141px;
+  height: 24px;
+  left: 113px;
+  top: calc(50% - 24px/2 + 72px);
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF; /* White */
+}
 
-position: absolute;
-width: 96px;
-min-width: 96px;
-height: 43.98px;
-left: 0px;
-top: calc(50% - 43.98px/2 + 72.1px);
-
-/* Primary */
-background: #8F81E7;
-/* Primary */
-border: 1px solid #8F81E7;
-border-radius: 3px;
-
-
-/* Sign in */
-
-width: 56px;
-height: 24px;
-
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 24px;
-/* identical to box height, or 133% */
-display: flex;
-align-items: center;
-text-align: center;
-
-/* White */
-color: #FFFFFF;
-
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-
-
-/* Link → Forgot password */
-
-position: absolute;
-width: 141px;
-height: 24px;
-left: 112.84px;
-top: calc(50% - 24px/2 + 72.11px);
-
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 24px;
-/* identical to box height, or 133% */
-display: flex;
-align-items: center;
-text-align: center;
-
-/* White */
-color: #FFFFFF;
-
-
-
-/* div.col-md-12 */
-
-position: absolute;
-height: 8px;
-left: 0px;
-right: 0px;
-top: 0px;
-
-background: linear-gradient(90.07deg, #4A68B6 10%, #5D82E3 10%, #5D82E3 45%, #4A68B6 45%, #4A68B6 55%, #00BBF9 55%, #00BBF9 75%, #BFDBEA 75%);
+/* Gradient Divider */
+.login__divider {
+  position: absolute;
+  height: 8px;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: linear-gradient(90.07deg, #4A68B6 10%, #5D82E3 10%, #5D82E3 45%, #4A68B6 45%, #4A68B6 55%, #00BBF9 55%, #00BBF9 75%, #BFDBEA 75%);
+}
